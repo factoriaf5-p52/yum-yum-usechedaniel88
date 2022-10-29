@@ -23,74 +23,99 @@
 }
 
 .contendor{
-    width: 80%;
+    color: black;
     max-width: 1000px;
     margin: 0, auto;
-    overflow: hidden;
+    min-height: 100vh;
+    display: grid;
 }
 
+/***** LOGO Y MENU *****/
+
 header{
-    width: 100%;
+    width: 45%;
     height: 80px;
-    background: white;
-}
-.logo-menu{
-    width: 80%;
-    height: 80px;
-    /*color de caja
-    background: red;*/
-    margin: auto;
-}
-.logo{
-    color: gray;
-    width: 30%;
-    height: 80px;
-    padding-top: 20px;
-    /*color de caja
-    background: blue;*/
-    float: left;
+    background: red;
+    padding-top: 24px;
+    padding-left: 30px;
+    display: inline-block;
     box-sizing: border-box;
-}
-.logo p a{
-    /*color de caja
-    color: white;*/
+    float: left;
 }
 nav{
-    width: 70%;
+    width: 55%;
     height: 80px;
-    /*color de caja
-    background: green; */
-    float: left; /*Ubica los elementos, permitiendo a elementos texto y linea aparecer al costado*/
-    text-align: right;
+    backgro und: blue; 
     padding-top: 24px;
+    display: inline-block;
     box-sizing: border-box; /*Se mide el elemento por el alto y ancho sin importa que tenga padding*/
+    float: right;
 }
 nav ul li{
     display: inline; /*El menu se pone en linea*/
 }
 nav ul li a{
-    color: gray;
+    color: #444;
     font-size: 13px;
     text-decoration: none;
-    padding-left: 20px;
     font-weight: bold;
-    letter-spacing: 1px;
     font-family: lato;
 }
 nav ul li a:hover{
-    color: #444;
+    color: #111;
 }
-.imagenprincipal-formulario{
-    width: 80%;
-    max-width: 1000px;
-    margin: 0, auto;
-    overflow: hidden; /*evita desbordamiento al hacer la pag mas pequeña*/
-    /*display: grid;
-    grid-template-columns: 1fr, 1fr;
-    width: 300px;*/
+
+/***** IMAGEN PRINCIPAL Y FORMULARIO *****/
+
+.imagenprincipal{
+    width: 50%;
+    height: 600px;
+    background: gray; 
+    padding-left: 40px;
+    box-sizing: border-box;
+    float: left;
+    display: block;
 }
-.imagenprincipal-formulario img{
-    /*max-w idth: 400px;
-    max-h eight: 400px;
-    background-color: blue;*/
+.formulario{
+    width: 50%;
+    height: 600px;
+    background: green; 
+    box-sizing: border-box;
+    float: right;
+    display: block;
 }
+.comofunciona{
+    width: 100%;
+    background: yellow; 
+    display: block;
+}
+section .comofunciona ul li{
+    
+}
+
+/***** MEDIA QUERY *****/
+
+@media only screen and (max-width: 900px) {
+    header div.logo-menu, header div.logo-menu ul, header div.logo-menu li{
+        display: flex;
+    }
+    header div.logo-menu nav{
+        width: 100%;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    header div.logo-menu, header div.logo-menu ul, header div.logo-menu li{
+        display: none}
+
+    header div.logo-menu div.logo p{
+        margin: 0;
+    }
+    header div.logo-menu div.logo p a{
+        margin: 0;
+    }
+    header div.logo-menu{
+        display: flex;
+        place-content: space-between;
+    }
