@@ -22,7 +22,7 @@
     padding: 0;
 }
 body{
-    background-color: silver;
+    background-color: aqua;
     height: 100%;
 }
 
@@ -31,20 +31,17 @@ body{
 header{
     width: 45%;
     height: 80px;
-    background: white;
+    background: red;
     padding-top: 24px;
     padding-left: 30px;
     display: inline-block;
     box-sizing: border-box;
     float: left;
 }
-header h1{
-    color: gray;
-}
 nav{
     width: 55%;
     height: 80px;
-    background: white; 
+    background: blue; 
     padding-top: 24px;
     display: inline-block;
     box-sizing: border-box; /*Se mide el elemento por el alto y ancho sin importa que tenga padding*/
@@ -70,6 +67,7 @@ nav ul li a:hover{
     width: 50%;
     height: 400px;
     background: gray; 
+    margin-top: 50px;
     padding-left: 40px;
     box-sizing: border-box;
     float: left;
@@ -78,7 +76,8 @@ nav ul li a:hover{
 aside{
     width: 50%;
     height: 400px;
-    background: rgb(95, 196, 95);
+    background: green;
+    margin-top: 50px;
     box-sizing: border-box;
     float: right;
     display: block;
@@ -94,7 +93,8 @@ aside .formulario{
 #dos{
     width: 100%;
     height: 300px;
-    background: white; 
+    background: orange; 
+    margin-top: 50px;
     padding-left: 40px;
     box-sizing: border-box;
     float: left;
@@ -103,7 +103,6 @@ aside .formulario{
 #dos h2{
     text-align: center;
     padding-top: 20px;
-    color: orange;
 }
 #dos ul li{
     display: inline; /*El menu se pone en linea*/
@@ -122,6 +121,7 @@ aside .formulario{
     width: 100%;
     height: 600px;
     background: silver;
+    margin-top: 50px;
     padding-left: 40px;
     box-sizing: border-box;
     float: left;
@@ -130,10 +130,12 @@ aside .formulario{
 .fila1{
     width: 100%;
     height: 300px;
+    background: blue;
 }
 .fila2{
     width: 100%;
     height: 300px;
+    background: yellow;
 }
 .card1{
     display: block;
@@ -194,7 +196,8 @@ aside .formulario{
 #cuatro{
         width: 100%;
         height: 300px;
-        background: rgb(221, 107, 107); 
+        background: olive; 
+        margin-top: 50px;
         padding-left: 40px;
         box-sizing: border-box;
         float: left;
@@ -216,7 +219,8 @@ aside .formulario{
 #cinco{
     width: 100%;
     height: 600px;
-    background: silver;
+    background: navy;
+    margin-top: 50px;
     box-sizing: border-box;
     float: left;
     display: block;
@@ -224,7 +228,8 @@ aside .formulario{
 #seis{
     width: 100%;
     height: 300px;
-    background: silver;
+    background: fuchsia;
+    margin-top: 50px;
     padding-left: 40px;
     box-sizing: border-box;
     float: left;
@@ -233,7 +238,7 @@ aside .formulario{
 #siete{
     width: 100%;
     height: 300px;
-    background: silver;
+    background: teal;
     margin-top: 50px;
     padding-left: 40px;
     box-sizing: border-box;
@@ -243,7 +248,7 @@ aside .formulario{
 #ocho{
     width: 100%;
     height: 300px;
-    background: white;
+    background: lime;
     margin-top: 50px;
     padding-left: 40px;
     box-sizing: border-box;
@@ -253,7 +258,7 @@ aside .formulario{
 #nueve{
     width: 100%;
     height: 20px;
-    background: silver;
+    background: pink;
     margin-top: 50px;
     padding-left: 40px;
     box-sizing: border-box;
