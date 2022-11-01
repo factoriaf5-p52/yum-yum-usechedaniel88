@@ -82,6 +82,14 @@ aside{
     float: right;
     display: block;
 }
+aside .formulario h2{
+    color: white;
+}
+aside .formulario{
+    text-align: center;
+    padding-top: 40px;
+}
+
 #dos{
     width: 100%;
     height: 300px;
@@ -219,7 +227,7 @@ aside{
 }
 #seis{
     width: 100%;
-    height: 100px;
+    height: 300px;
     background: fuchsia;
     margin-top: 50px;
     padding-left: 40px;
@@ -229,7 +237,7 @@ aside{
 }
 #siete{
     width: 100%;
-    height: 100px;
+    height: 300px;
     background: teal;
     margin-top: 50px;
     padding-left: 40px;
@@ -239,8 +247,18 @@ aside{
 }
 #ocho{
     width: 100%;
-    height: 100px;
+    height: 300px;
     background: lime;
+    margin-top: 50px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    float: left;
+    display: block;
+}
+#nueve{
+    width: 100%;
+    height: 20px;
+    background: pink;
     margin-top: 50px;
     padding-left: 40px;
     box-sizing: border-box;
