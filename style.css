@@ -21,13 +21,9 @@
     margin: 0;
     padding: 0;
 }
-
-.contendor{
-    color: black;
-    max-width: 1000px;
-    margin: 0, auto;
-    min-height: 100vh;
-    display: grid;
+body{
+    background-color: aqua;
+    height: 100%;
 }
 
 /***** LOGO Y MENU *****/
@@ -45,7 +41,7 @@ header{
 nav{
     width: 55%;
     height: 80px;
-    backgro und: blue; 
+    background: blue; 
     padding-top: 24px;
     display: inline-block;
     box-sizing: border-box; /*Se mide el elemento por el alto y ancho sin importa que tenga padding*/
@@ -67,31 +63,200 @@ nav ul li a:hover{
 
 /***** IMAGEN PRINCIPAL Y FORMULARIO *****/
 
-.imagenprincipal{
+#uno{
     width: 50%;
-    height: 600px;
+    height: 400px;
     background: gray; 
+    margin-top: 50px;
     padding-left: 40px;
     box-sizing: border-box;
     float: left;
     display: block;
 }
-.formulario{
+aside{
     width: 50%;
-    height: 600px;
-    background: green; 
+    height: 400px;
+    background: green;
+    margin-top: 50px;
     box-sizing: border-box;
     float: right;
     display: block;
 }
-.comofunciona{
+#dos{
     width: 100%;
-    background: yellow; 
+    height: 300px;
+    background: orange; 
+    margin-top: 50px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    float: left;
+    display: inline-block;
+}
+#dos h2{
+    text-align: center;
+    padding-top: 20px;
+}
+#dos ul li{
+    display: inline; /*El menu se pone en linea*/
+}
+.como-trabajamos {
+    display: flex;
+    justify-content: flex-start;
+}
+.iconos img{
+    width: 100px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+#tres{
+    width: 100%;
+    height: 600px;
+    background: silver;
+    margin-top: 50px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    float: left;
     display: block;
 }
-section .comofunciona ul li{
-    
+.fila1{
+    width: 100%;
+    height: 300px;
+    background: blue;
 }
+.fila2{
+    width: 100%;
+    height: 300px;
+    background: yellow;
+}
+.card1{
+    display: block;
+    float: left;
+    height: 286px;
+    width: 25%;
+    background: white;
+}
+.card2{
+    display: block;
+    float: left;
+    height: 286px;
+    width: 25%;
+    background: white;
+}
+.card3{
+    display: block;
+    float: left;
+    height: 286px;
+    width: 25%;
+    background: white;
+}
+.card4{
+    display: block;
+    float: left;
+    height: 286px;
+    width: 25%;
+    background: white;
+}
+.card5{
+    display: block;
+    float: left;
+    height: 286px;
+    width: 25%;
+    background: white;
+}
+.card6{
+    display: block;
+    float: left;
+    height: 286px;
+    width: 25%;
+    background: white;
+}
+.card7{
+    display: block;
+    float: left;
+    height: 286px;
+    width: 25%;
+    background: white;
+}
+.card8{
+    display: block;
+    float: left;
+    height: 286px;
+    width: 25%;
+    background: white;
+}
+#cuatro{
+        width: 100%;
+        height: 300px;
+        background: olive; 
+        margin-top: 50px;
+        padding-left: 40px;
+        box-sizing: border-box;
+        float: left;
+        display: inline-block;
+}
+
+#cuatro ul li{
+    display: inline; /*El menu se pone en linea*/
+}
+.cuartaparte {
+    display: flex;
+    justify-content: flex-start;
+}
+.iconos2 img{
+    width: 100px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+#cinco{
+    width: 100%;
+    height: 600px;
+    background: navy;
+    margin-top: 50px;
+    box-sizing: border-box;
+    float: left;
+    display: block;
+}
+#seis{
+    width: 100%;
+    height: 100px;
+    background: fuchsia;
+    margin-top: 50px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    float: left;
+    display: block;
+}
+#siete{
+    width: 100%;
+    height: 100px;
+    background: teal;
+    margin-top: 50px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    float: left;
+    display: block;
+}
+#ocho{
+    width: 100%;
+    height: 100px;
+    background: lime;
+    margin-top: 50px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    float: left;
+    display: block;
+}
+/***** FOOTER *****/
+/*footer{
+    width: 100%;
+    height: 100px;
+    background: pink; 
+    margin-top: 50px;
+    box-sizing: border-box;
+    float: left;
+    display: block;
+}*/
 
 /***** MEDIA QUERY *****/
 
