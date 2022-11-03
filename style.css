@@ -22,7 +22,7 @@
     padding: 0;
 }
 body{
-    background-color: silver;
+    background-color: #f5f5eb;
     height: 100%;
 }
 
@@ -38,7 +38,7 @@ header{
     box-sizing: border-box;
     float: left;
 }
-header h1{
+header h3{
     color: gray;
 }
 nav{
@@ -63,14 +63,7 @@ nav ul li a{
 nav ul li a:hover{
     color: #111;
 }
-.botontres{
-    width: 120px;
-    height: 40px;
-    background-color: #f97344;
-    border-radius: 5px 5px 5px 5px;
-    color: white;
-    font-weight: bold;
-}
+
 
 /***** IMAGEN PRINCIPAL Y FORMULARIO *****/
 
@@ -93,11 +86,33 @@ aside{
 }
 aside .formulario h2{
     color: white;
+    margin-right: 200px;
 }
 aside .formulario{
     text-align: center;
     padding-top: 40px;
 }
+.primeros-input{
+    width: 400px;
+    height: 35px;
+    margin-left: 50px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: white;
+    color: gray;
+    font-style: normal;
+}
+button{
+    width: 120px;
+    height: 40px;
+    background-color: #f97344;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    font-weight: bold;
+    margin-right: 240px;
+    margin-top: 20px;
+}
+
+/**** SECCION DOS *******/
 
 #dos{
     width: 100%;
@@ -111,7 +126,11 @@ aside .formulario{
 #dos h2{
     text-align: center;
     padding-top: 20px;
-    color: orange;
+    color: #fc703e;
+}
+.iconos p{
+    color: gray;
+    text-align: center;
 }
 #dos ul li{
     display: inline; /*El menu se pone en linea*/
@@ -126,14 +145,14 @@ aside .formulario{
     padding-top: 40px;
 }
 
-#tres{
+/**** SECCION TRES *******/
+
+#tres>fila1{
     width: 100%;
     height: 600px;
-    background: silver;
-    padding-left: 40px;
+    background: #f5f5eb;
     box-sizing: border-box;
-    float: left;
-    display: block;
+    display: flex;
 }
 .fila1{
     width: 100%;
@@ -143,67 +162,20 @@ aside .formulario{
     width: 100%;
     height: 300px;
 }
-.card1{
-    display: block;
+.tres-card{
+    
     float: left;
-    height: 286px;
+    height: 280px;
     width: 25%;
     background: white;
 }
-.card2{
-    display: block;
-    float: left;
-    height: 286px;
-    width: 25%;
-    background: white;
-}
-.card3{
-    display: block;
-    float: left;
-    height: 286px;
-    width: 25%;
-    background: white;
-}
-.card4{
-    display: block;
-    float: left;
-    height: 286px;
-    width: 25%;
-    background: white;
-}
-.card5{
-    display: block;
-    float: left;
-    height: 286px;
-    width: 25%;
-    background: white;
-}
-.card6{
-    display: block;
-    float: left;
-    height: 286px;
-    width: 25%;
-    background: white;
-}
-.card7{
-    display: block;
-    float: left;
-    height: 286px;
-    width: 25%;
-    background: white;
-}
-.card8{
-    display: block;
-    float: left;
-    height: 286px;
-    width: 25%;
-    background: white;
-}
+
+/**** SECCION CUATRO *******/
+
 #cuatro{
         width: 100%;
         height: 300px;
         background-image: linear-gradient(#f86c3a, #ee3b51);
-        padding-left: 40px;
         box-sizing: border-box;
         float: left;
         display: inline-block;
@@ -218,36 +190,69 @@ aside .formulario{
 }
 .iconos2 img{
     width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
     padding-left: 20px;
-    padding-top: 40px;
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 100px;
 }
+#cuatro>h3>p{
+    color: white;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+/**** SECCION CINCO *******/
+
 #cinco{
     width: 100%;
     height: 600px;
-    background: silver;
+    background: #f5f5eb;
     box-sizing: border-box;
     float: left;
     display: block;
 }
+.cinco-card{
+    
+    float: left;
+    height: 280px;
+    width: 25%;
+    background: white;
+}
+
+/**** SECCION SEIS *******/
+
 #seis{
     width: 100%;
     height: 300px;
-    background: silver;
-    padding-left: 40px;
+    background: #f5f5eb;
     box-sizing: border-box;
     float: left;
     display: block;
 }
+
+/**** SECCION SIETE *******/
+
 #siete{
     width: 100%;
     height: 300px;
-    background: silver;
+    background: #f5f5eb;
     margin-top: 50px;
-    padding-left: 40px;
     box-sizing: border-box;
     float: left;
     display: block;
 }
+.siete-card{
+    
+    float: left;
+    height: 280px;
+    width: 25%;
+    background: white;
+}
+
+/**** SECCION OCHO *******/
+
 #ocho{
     width: 100%;
     height: 300px;
@@ -258,26 +263,62 @@ aside .formulario{
     float: left;
     display: block;
 }
+.ocho-fila6{
+    margin-top: 50px;
+}
+.ocho-card{
+    
+    float: left;
+    height: 280px;
+    width: 25%;
+    background: white;
+    padding-top: 50px;
+} 
+
+/**** SECCION NUEVE *******/
+
 #nueve{
     width: 100%;
     height: 20px;
-    background: silver;
+    background: #f5f5eb;
     margin-top: 50px;
     padding-left: 40px;
     box-sizing: border-box;
     float: left;
     display: block;
 }
-/***** FOOTER *****/
-/*footer{
-    width: 100%;
-    height: 100px;
-    background: pink; 
-    margin-top: 50px;
-    box-sizing: border-box;
-    float: left;
-    display: block;
-}*/
+
+/**** RESTO GENERAL *****/
+
+h2{
+    margin-top: 40px;
+    text-align: center;
+    color: #fc703e;
+    font-weight: bold;
+}
+input{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+p{
+    color: gray;
+}
+h4{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+h6{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
 
 /***** MEDIA QUERY *****/
 
